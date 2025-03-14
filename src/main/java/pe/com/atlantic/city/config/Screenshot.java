@@ -1,4 +1,4 @@
-package pe.com.atlantic_city_testing.config;
+package pe.com.atlantic.city.config;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;

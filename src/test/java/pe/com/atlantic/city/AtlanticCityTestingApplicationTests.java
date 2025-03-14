@@ -1,4 +1,4 @@
-package pe.com.atlantic_city_testing;
+package pe.com.atlantic.city;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
