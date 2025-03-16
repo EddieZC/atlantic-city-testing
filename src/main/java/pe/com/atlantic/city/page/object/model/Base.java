@@ -5,7 +5,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pe.com.atlantic.city.config.Screenshot;
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class Base {
     protected WebDriver driver;

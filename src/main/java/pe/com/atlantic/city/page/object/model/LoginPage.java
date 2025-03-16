@@ -48,8 +48,9 @@ public class LoginPage extends Base{
         wait.until(ExpectedConditions.visibilityOf(userInput));
     }
 
-    public void clickBtnLogin() {
+    public HomePage clickBtnLogin() {
         wait.until(ExpectedConditions.elementToBeClickable(btnLogin)).click();
+        return new HomePage(driver);
     }
 
     public void enterUser(String user) {
